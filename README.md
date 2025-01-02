@@ -1,75 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristovao Meireles Nhachengo</title>
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTAP ICONS-->  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
 <header>
+    <div class="interface">
+        <div class="logo">
+            <a href="#">
+                <h1>Cristóvão Meireles</h1>
+            </a>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+        </div>
 
-# GitHub Pages
+<nav class="menu-desktop">
+    <ul class="ul">
+        <li><a href="Inicio.html">Inicio</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="sobre mim.html">Sobre</a></li>
+        <li><a href="projectos.html">Projectos</a></li>
+        
+        </div>
+    </ul>
+    
+    
+</nav>
+<div class="btn-contacto">
+    <a href="contacto.html">
+        <button>Contacto</button>
+    </a>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+</div><!--btn-contacto-->
 
+    </div><!--interface-->
 </header>
 
-<!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
--->
+<main>
+    <section class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>OLÁ SEJA BEM-VINDO AO MEU PORTFÓLIO<span>.</span></h1>
+                    <p>Eu sou o Cristóvão, uma pessoa curiosa e sempre em busca de aprender mais. Gosto de explorar novas ideias e me desafiar em diferentes áreas. 
+                        Quando encontro algo que me interessa, me dedico a entender e a aplicar, seja no mundo digital, em projetos ou no meu próprio crescimento pessoal. 
+                        Sei que cada novo aprendizado é um passo importante para construir algo maior e mais significativo. 
+                        Acredito que a chave para evoluir é estar sempre aberto a novos conhecimentos e experiências..</p>
 
-## Welcome
+                        <div class="btn-contacto">
+                            <a href="contacto.html">
+                                <button>Entre em Contacto</button>
+                            </a>
+                        </div>
 
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
+                </div><!--txt-topo-site-->
 
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
-- **How long**: This course takes less than one hour to complete.
+                <div class="img-topo-site">
+                    <img src="foto.jpg" alt="Nhachengo">
 
-In this course, you will:
+                </div><!--img-topo-site-->
 
-1. Enable GitHub Pages
-2. Configure your site
-3. Customize your home page
-4. Create a blog post
-5. Merge your pull request
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--topo-do-site-->
 
-### How to start this course
+</main>
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'github-pages',
-  owner: '@me',
-  name: 'skills-github-pages',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
-
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
-
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+</body>
+</html>
